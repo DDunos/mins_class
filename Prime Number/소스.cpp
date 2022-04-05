@@ -3,11 +3,9 @@
 
 using namespace std;
 
-int check[10001] = { false };
-
 class P_Number {
 public:
-	int n;
+	int n, check[10001] = { false };
 	void isPNum() {
 		check[0] = check[1] = true;
 		for (int i = 2; i < sqrt(n); i++) {
