@@ -1,0 +1,1 @@
+# mins_class
